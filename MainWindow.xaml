@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:project_one"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+	<Grid>
+		<TextBlock FontSize="35" TextAlignment ="Center" Margin="220,10,220,352">ГЕЙ МЕТОР 2.0</TextBlock>
+		<TextBlock x:Name="gay_result" TextAlignment ="Center" FontSize="40" Margin="220,139,220,223">ПОКА ХЗ</TextBlock>
+		<Button x:Name="button1" FontSize="20" Content="Измерить" Click="Button_Click" Margin="301,276,301,97" />
+	</Grid>
 </Window>
